@@ -1,0 +1,27 @@
+{
+  "name": "tplink-hs100",
+  "version": "1.0.0",
+  "description": "Discovers and manages TPLink Smart Plugs on the LAN.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alex Rhea <alex.rhea@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arhea/tplink-hs100.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arhea/tplink-hs100/issues"
+  },
+  "homepage": "https://github.com/arhea/tplink-hs100",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "hs100-api": "^0.3.0",
+    "lodash": "^4.17.3",
+    "morgan": "^1.7.0",
+    "winston": "^2.3.0"
+  }
+}
